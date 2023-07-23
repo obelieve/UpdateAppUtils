@@ -5,14 +5,15 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.teprinciple.updateapp.constant.UiType;
+import com.teprinciple.updateapp.listener.Md5CheckResultListener;
+import com.teprinciple.updateapp.listener.UpdateDownloadListener;
+import com.teprinciple.updateapp.model.UiConfig;
+import com.teprinciple.updateapp.model.UpdateConfig;
+import com.teprinciple.updateapp.update.UpdateAppUtils;
+
 import org.jetbrains.annotations.NotNull;
 
-import constant.UiType;
-import listener.Md5CheckResultListener;
-import listener.UpdateDownloadListener;
-import model.UiConfig;
-import model.UpdateConfig;
-import update.UpdateAppUtils;
 
 /**
  * desc: java使用实例

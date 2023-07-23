@@ -8,15 +8,15 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
-import constant.DownLoadBy
-import constant.UiType
+import com.teprinciple.updateapp.constant.DownLoadBy
+import com.teprinciple.updateapp.constant.UiType
+import com.teprinciple.updateapp.listener.OnBtnClickListener
+import com.teprinciple.updateapp.listener.OnInitUiListener
+import com.teprinciple.updateapp.listener.UpdateDownloadListener
+import com.teprinciple.updateapp.model.UiConfig
+import com.teprinciple.updateapp.model.UpdateConfig
+import com.teprinciple.updateapp.update.UpdateAppUtils
 import kotlinx.android.synthetic.main.activity_main.*
-import listener.OnBtnClickListener
-import listener.OnInitUiListener
-import listener.UpdateDownloadListener
-import model.UiConfig
-import model.UpdateConfig
-import update.UpdateAppUtils
 
 
 class MainActivity : AppCompatActivity() {
