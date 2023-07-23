@@ -18,14 +18,14 @@
         tools:ignore="UnusedAttribute">
 
         <activity
-            android:name="ui.UpdateAppActivity"
+            android:name="com.teprinciple.updateapp.ui.UpdateAppActivity"
             android:launchMode="singleTask"
             android:theme="@style/DialogActivityTheme"/>
 
-        <service android:name="update.UpdateAppService"/>
+        <service android:name="com.teprinciple.updateapp.update.UpdateAppService"/>
 
         <provider
-            android:name="update.UpdateFileProvider"
+            android:name="com.teprinciple.updateapp.update.UpdateFileProvider"
             android:authorities="${applicationId}.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">

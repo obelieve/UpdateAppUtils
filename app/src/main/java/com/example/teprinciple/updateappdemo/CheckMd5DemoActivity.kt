@@ -4,10 +4,10 @@ import android.os.Bundle
 import android.os.Environment
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import com.teprinciple.updateapp.listener.Md5CheckResultListener
+import com.teprinciple.updateapp.model.UpdateConfig
+import com.teprinciple.updateapp.update.UpdateAppUtils
 import kotlinx.android.synthetic.main.check_md5_demo_activity.*
-import listener.Md5CheckResultListener
-import model.UpdateConfig
-import update.UpdateAppUtils
 
 /**
  * desc: md5校验示例
